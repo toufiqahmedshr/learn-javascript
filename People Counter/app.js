@@ -13,4 +13,16 @@ let saveEl = document.getElementById('save-el')
 function save() {
     let countStr = count + ' - '
     saveEl.textContent += countStr
+    count = 0
+    countEl.textContent = count
 }
+
+let resetEl = document.getElementById('reset-el')
+
+function resetAll() {
+    count = 0
+    saveEl.textContent = ''
+    countEl.textContent = count
+}
+
+
