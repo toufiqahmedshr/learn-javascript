@@ -1,24 +1,16 @@
 
-//  initialize the count as 0
-
-//  listen for clicks on the increment button
-
-//  increment the count variable when the button is clicked
-
-//  change the count-el in the HTML to reflect the new count
-
 let countEl = document.getElementById("count-el")
 
 let count = 0
 
 function increment() {
-    count = count + 1
-    countEl.innerText = count
+    count += 1
+    countEl.textContent = count
 }
 
-//  create a function, save(), which logs out the count when it's called 
+let saveEl = document.getElementById('save-el')
 
 function save() {
-    console.log(count)
+    let countStr = count + ' - '
+    saveEl.textContent += countStr
 }
-
