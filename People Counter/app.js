@@ -17,8 +17,6 @@ function save() {
     countEl.textContent = count
 }
 
-let resetEl = document.getElementById('reset-el')
-
 function resetAll() {
     count = 0
     saveEl.textContent = ''
