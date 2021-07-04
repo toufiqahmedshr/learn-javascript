@@ -1,22 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap");
 
-body {
-  font-family: "Open Sans", sans-serif;
-  font-weight: bold;
-  margin: 0;
-}
-
 main {
   background-image: url(images/Casino-Game-Wallpapers-Top-Free-Casino-Game-Backgrounds-.jpg);
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-position: center;
-  background-size: contain;
   border-radius: 10px;
   margin: 0 auto;
-  width: 1440px;
+  width: 70%;
   height: 96vh;
   text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
 }
 
 h1 {
