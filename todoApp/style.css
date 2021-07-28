@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(
+    69.7deg,
+    rgba(216, 81, 82, 1) 40%,
+    rgba(154, 27, 69, 1) 100.1%
+  );
+  font-family: "Nunito", sans-serif;
+  color: #f8f8f8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.todo-app {
+  width: 450px;
+  min-height: 67vh;
+  background: #f7f3e9;
+  border: 1px solid #f7f3e9;
+  border-radius: 6px;
+  overflow: none;
+}
+
+.todo-app form {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-el {
+  width: 80%;
+  height: 35px;
+  border: 1px solid #282c34;
+  border-radius: 0;
+}
+
+.input-el::placeholder {
+  color: gray;
+  text-align: center;
+}
+
+button {
+  color: white;
+  width: 10%;
+  height: 35px;
+  padding: 7px;
+  cursor: pointer;
+  background: #282c34;
+  border: 1px solid #282c34;
+  border-radius: 0;
+}
+
+button:hover {
+  color: #282c34;
+  background: #f7f3e9;
+}
+
+.header {
+  margin: 15px 8px 45px;
+  height: 20px;
+}
+
+#dateNTime {
+  color: salmon;
+  font-size: 40px;
+}
+
+#todo-list {
+  list-style: none;
+}
+
+.list-item {
+  border: 1px solid #282c34;
+  width: 90%;
+  height: 35px;
+  background: #f8f8f8;
+  display: flex;
+  flex-direction: row;
+  margin: 2px;
+}
+
+.list-item label {
+  display: inline-block;
+  width: 80%;
+  margin-left: 8px;
+  padding: 0;
+}

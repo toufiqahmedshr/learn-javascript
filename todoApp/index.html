@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>todoApp</title>
+  </head>
+  <body>
+    <main>
+      <div class="todo-app">
+        <div class="top-sect" style="margin-bottom: 30px">
+          <div class="header">
+            <span id="dateNTime">DateNTime</span>
+          </div>
+          <!-- <hr width="60%" style="color: gray" /> -->
+          <div>
+            <form class="input-form">
+              <input type="text" class="input-el" placeholder="add new task" />
+              <button class="add-btn" id="add-btn" type="submit">
+                <i class="fas fa-plus"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="todo-container">
+          <ul id="todo-list">
+            <center>
+              <li class="list-item" id="">
+                <label style="color: black">${inputEl.value}</label>
+                <button class="check-btn"><i class="fas fa-check"></i></button>
+                <button class="delete-btn">
+                  <i class="fas fa-trash-alt"></i>
+                </button>
+              </li>
+            </center>
+          </ul>
+        </div>
+      </div>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
